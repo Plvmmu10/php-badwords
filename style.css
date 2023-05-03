@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myContainer {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.box {
+    border: 2px solid black;
+    width: 50%;
+    display: flex;
+
+}
+
+.length-box,
+.para-box {
+    padding: 2rem;
+    border: 2px solid red;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
